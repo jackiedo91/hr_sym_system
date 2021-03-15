@@ -1,0 +1,8 @@
+system: # Using for set up infra, server ...
+  opt_1: ""
+app: # Using for business
+  common:
+    format:
+      date: "xxx"
+      time: ""
+      datetime: ""

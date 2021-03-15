@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 # Using yaml file for setting
-# gem 'config'
+gem 'config'
 
 group :development, :test do
   # Using .env file for setting ENV variables
