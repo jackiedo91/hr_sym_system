@@ -1,8 +1,8 @@
+# Gem 'config', Using Settings.key_1.key_2
 system: # Using for set up infra, server ...
   opt_1: ""
 app: # Using for business
-  common:
-    format:
-      date: "xxx"
-      time: ""
-      datetime: ""
+  format:
+    date: "xxx"
+    time: ""
+    datetime: ""
