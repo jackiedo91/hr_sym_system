@@ -28,9 +28,17 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
+# Using yaml file for setting
+# gem 'config'
+
 group :development, :test do
+  # Using .env file for setting ENV variables
+  gem 'dotenv-rails'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Pretty print in console
+  gem 'amazing_print'
 end
 
 group :development do
